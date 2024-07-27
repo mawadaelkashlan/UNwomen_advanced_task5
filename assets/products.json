@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "status_code": "200",
+  "data": [
+    {
+      "product_id": 1,
+      "name": "Tea",
+      "description": "Tea is a refreshing and aromatic drink made steeping the leaves of Camellia sinensis in hot water.",
+      "image": "https://th.bing.com/th/id/OIP.t6LL4WLPQCwdIgkgBIW1LgHaHa?w=626&h=626&rs=1&pid=ImgDetMain"
+    },
+    {
+      "product_id": 2,
+      "name": "Hot chocolate",
+      "description": "Hot chocolate, also known as hot cocoa or drinking chocolate, is a heated drink consisting of shaved or melted chocolate or cocoa powder, heated milk or water, and usually a sweetener.",
+      "image": "https://th.bing.com/th/id/R.3eef232e41bb3389f5b594eea45156e5?rik=SJkor3x35aWc1Q&pid=ImgRaw&r=0"
+    },
+    {
+      "product_id": 3,
+      "name": "Coffee",
+      "description": "Coffee is a beverage brewed from the roasted and ground seeds of the tropical evergreen coffee plant of African origin",
+      "image": "https://th.bing.com/th/id/R.6ecc034fb0eacf1fef6c9e27a78f6bf9?rik=F%2bmfkpc05bW9aw&pid=ImgRaw&r=0"
+    },
+    {
+      "product_id": 4,
+      "name": "Green tea",
+      "description": "Green tea is a type of tea that is made from Camellia sinensis leaves and buds that have not undergone the same withering and oxidation process which is used to make oolong teas and black teas.",
+      "image": "https://th.bing.com/th/id/R.1c085c2d22a3f0e88571fd65b6a22ecf?rik=zYcJLab5aYtYeA&riu=http%3a%2f%2fwww.bestweightlosspills.reviews%2fwp-content%2fuploads%2f2017%2f02%2fgreen-tea-diet-pills.jpg&ehk=RVoSLJc4D1bXgVv%2bWBtVh3IQ%2brBcRo6t6zKPFEirERw%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "product_id": 5,
+      "name": "Roselle",
+      "description": "Roselle is a species of flowering plant in the genus Hibiscus that is native to Africa, most likely West Africa",
+      "image": "https://th.bing.com/th/id/R.56c34c9b6e955e1eda174c928b60e6d8?rik=Imcysiou1%2fsNPg&pid=ImgRaw&r=0"
+    }
+  ]
+}
