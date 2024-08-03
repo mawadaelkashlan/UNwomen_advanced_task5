@@ -28,7 +28,8 @@ class _HomePageState extends State<HomePage> {
     if (response['success']) {
       products = response['data'];
       // Initialize counters for each product
-      productCounters = List.generate(products.length, (index) => ValueNotifier(0));
+      productCounters =
+          List.generate(products.length, (index) => ValueNotifier(0));
     } else {
       print('Error : ${response['status_code'] ?? 'Unknown error'}');
     }
@@ -83,7 +84,6 @@ class _HomePageState extends State<HomePage> {
                             onPressed: () {
                               if (count > 0) {
                                 productCounters[index].value--;
-                                setState(() {}); // Update the total count in the app bar
                               }
                             },
                           ),
@@ -92,7 +92,6 @@ class _HomePageState extends State<HomePage> {
                             icon: const Icon(Icons.add),
                             onPressed: () {
                               productCounters[index].value++;
-                              setState(() {}); // Update the total count in the app bar
                             },
                           ),
                         ],
